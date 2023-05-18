@@ -11,7 +11,6 @@ import org.thymeleaf.templateresolver.ClassLoaderTemplateResolver;
 public class MvcConfig implements WebMvcConfigurer {
 
     private final Converters.StringToRoleConverter stringToRoleConverter;
-
     private final Converters.StringsArrayToRoleConverter stringsArrayToRoleConverter;
 
     @Autowired
